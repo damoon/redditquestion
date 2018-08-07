@@ -1,7 +1,7 @@
 package a
 
 type P interface {
-	Instance(s string) I
+	Instance(s string) interface{}
 }
 
 type I interface {

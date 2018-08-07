@@ -1,10 +1,8 @@
 package b
 
-import "github.com/krocos/redditquestion/a"
-
 type p struct{}
 
-func (p) Instance(s string) a.I {
+func (p) Instance(s string) interface{} {
 	return &i{s: s}
 }
 
